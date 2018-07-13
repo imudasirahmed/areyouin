@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70019AD20F929E000DD9427 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70019AC20F929E000DD9427 /* MainTabController.swift */; };
+		F70019B020F936C400DD9427 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F70019AF20F936C400DD9427 /* GoogleService-Info.plist */; };
 		F732D86720F8DD050066FC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F732D86620F8DD050066FC6D /* Assets.xcassets */; };
 		F7F4A36920F7E1AE00ADB7BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4A36820F7E1AE00ADB7BC /* AppDelegate.swift */; };
 		F7F4A36B20F7E1AE00ADB7BC /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4A36A20F7E1AE00ADB7BC /* HomeController.swift */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		BCE4E8A16EBE7119093A7E54 /* Pods_areyouin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_areyouin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A975EA2AE70EB1A1442AC7 /* Pods-areyouin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-areyouin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-areyouin/Pods-areyouin.debug.xcconfig"; sourceTree = "<group>"; };
+		F70019AC20F929E000DD9427 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		F70019AF20F936C400DD9427 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F732D86620F8DD050066FC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EB5FAACDBE436410149713 /* Pods-areyouin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-areyouin.release.xcconfig"; path = "Pods/Target Support Files/Pods-areyouin/Pods-areyouin.release.xcconfig"; sourceTree = "<group>"; };
 		F7F4A36520F7E1AE00ADB7BC /* areyouin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = areyouin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +87,9 @@
 				F7F4A36C20F7E1AE00ADB7BC /* Main.storyboard */,
 				F7F4A37120F7E1AE00ADB7BC /* LaunchScreen.storyboard */,
 				F7F4A37420F7E1AE00ADB7BC /* Info.plist */,
+				F70019AF20F936C400DD9427 /* GoogleService-Info.plist */,
 				F732D86620F8DD050066FC6D /* Assets.xcassets */,
+				F70019AC20F929E000DD9427 /* MainTabController.swift */,
 			);
 			path = areyouin;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F4A37320F7E1AE00ADB7BC /* LaunchScreen.storyboard in Resources */,
+				F70019B020F936C400DD9427 /* GoogleService-Info.plist in Resources */,
 				F732D86720F8DD050066FC6D /* Assets.xcassets in Resources */,
 				F7F4A36E20F7E1AE00ADB7BC /* Main.storyboard in Resources */,
 			);
@@ -209,6 +216,7 @@
 			files = (
 				F7F4A36B20F7E1AE00ADB7BC /* HomeController.swift in Sources */,
 				F7F4A36920F7E1AE00ADB7BC /* AppDelegate.swift in Sources */,
+				F70019AD20F929E000DD9427 /* MainTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

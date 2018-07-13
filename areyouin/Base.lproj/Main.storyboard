@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="1118" y="752"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Controller-->
         <scene sceneID="WaF-0R-cib">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CGg-U0-aTJ" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CGg-U0-aTJ" customClass="MainTabController" customModule="areyouin" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fOU-ET-wCX">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
